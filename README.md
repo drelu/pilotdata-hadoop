@@ -7,7 +7,15 @@ PilotData-hadoop
 
 ## EMR
 
-## HDP Parametrisierung
+Boostrap Action for HDFS 2.4 Caching
+
+Configure Hadoop	
+
+s3://elasticmapreduce/bootstrap-actions/configure-hadoop	
+
+--hdfs-key-value, dfs.datanode.max.locked.memory=2000000000
+
+## HDP Parameters
 
 Image: KMeansMPI-Tachyon-Redis-HDP2.1-0.61
 
